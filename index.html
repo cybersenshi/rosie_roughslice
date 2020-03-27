@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script>
+    $(document).ready(function(){
+      $('.sidenav').sidenav();
+    });
+    </script>
+  </head>
+
+  <body>
+      <nav role="navigation" aria-label="main navigation">
+          <div class="nav-wrapper">
+            <a href="#" data-target="side-drop" class="right sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li>
+                <a href="/request-supplies">
+                  Request Supplies
+                </a>
+              </li>
+              <li>
+                <a href="/patterns">
+                  Patterns
+                </a>
+              </li>
+              <li>
+                <a href="/groups-directory">
+                  Groups Directory
+                </a>
+              </li>
+              <li>
+                <a href="/volunteer">
+                  Volunteer
+                </a>
+              </li>
+            </ul>
+          </div> <!-- navMenu -->
+      </nav>
+
+      <ul id="side-drop" class="sidenav">
+        <li>
+          <a href="/request-supplies">
+            Request Supplies
+          </a>
+        </li>
+        <li>
+          <a href="/patterns">
+            Patterns
+          </a>
+        </li>
+        <li>
+          <a href="/groups-directory">
+            Groups Directory
+          </a>
+        </li>
+        <li>
+          <a href="/volunteer">
+            Volunteer
+          </a>
+        </li>
+      </ul>
+
+    <header class="row">
+      <span class="col s4 rosie-col">
+        <img class="rosie" src="img/cando.svg" />
+      </span>
+      <span class="col s8">
+        <a href="/" title="The Masks Now Coalition">
+          <img class="masks" src="img/masksnow.svg" alt="The Masks Now Coalition" />
+        </a>
+      </span>
+    </header>
+
+    <section class="actioncall center-align">
+      <a class="btn-large" href="/volunteer">
+        Volunteer Here
+      </a>
+      <a class="btn-large" href="/request-supplies">
+        Request Supplies
+      </a>
+    </section>
+
+    <main class="container">
+      <p>
+        In an effort to help curb medical supply shortages as we battle COVID19, we’re requesting seamstresses, makers and manufacturers to make masks and other supplies for use by medical professionals, at-risk community members and essential workers including postal works, grocery store workers, manufacturing personnel (and more).
+      </p>
+      <p>
+        We are attempting to attack with a two-pronged approach: Homemade Small Batch and Mass Production.
+      </p>
+    </main>
+
+    <footer>
+
+    </footer>
+  </body>
+</html>
